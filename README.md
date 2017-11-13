@@ -1,9 +1,10 @@
 # Cripto Study
 
 This repository is destined to be a rich report about my study on Cryptography.
-For now I'm taking the [classes presented by Professor Christof Paar](
-https://www.youtube.com/watch?v=2aHkqB2-46k&list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy) at
-[Ruhr-Universität Bochum](https://www.ruhr-uni-bochum.de/index_en.htm).
+For now I'm taking the [Introduction to cryptography and Data Security](
+https://www.youtube.com/watch?v=2aHkqB2-46k&list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
+classes presented by Professor Christof Paar at [Ruhr-Universität Bochum
+](https://www.ruhr-uni-bochum.de/index_en.htm).
 
 The more courses I take, and probably I will, the more contentnI'll add to this
 report.
