@@ -10,4 +10,4 @@ report.
 
 So far the content here is:
 
-* [Modulo operation](./Modulo operation.ipynb)
+* [Modulo operation](https://github.com/deniscostadsc/crypto-study/blob/master/Modulo%20operation.ipynb)
