@@ -26,15 +26,15 @@ protocols. There are more branches below cryptography, but this course is going
 to focus on those three.
 
 ```
-+-*-*-*-*-*-+
-|  Security |
-+-*-*-*+*-*-+
++-*-*-*-*-*+
+| Security |
++-*-*-*+*-*+
        |
-+------v--------+
-|  Cryptology   |
-+------+--------+------------+
-       |                     |
-+------v-------+      +------v--------+
++------v-----+
+| Cryptology |
++------+-----+------------+
+       |                  |
++------v-------+      +---v-----------+
 | Cryptography |      | Cryptanalysis |
 +------+----+--+-+    +---------------+
        |    |    |
@@ -44,14 +44,34 @@ to focus on those three.
 | Symmetric Algorithms |   |  | Crypto Protocols |
 +----------------------+   |  +------------------+
                     +------v---------------+
-                    | Asimetric Algorithms |
+                    | Asymmetric Algorithms |
                     +----------------------+
 ```
 
-Security fields is much bigger then cryptography, but most of (if not all)
-security systems are based on cryptography.
+Security fields is much bigger then cryptography, but most of security systems
+are strongly based on cryptography.
 
 ## Symmetric setup
+
+```
++-------+                                         +-----+
+| Alice |             +-*-*-*-*-*-*-+             | Bob |
++-------+ X  +---+  Y |   Insecure  | Y  +---+  X +-^---+
+        +----| e |---->   Channel   +----| d |------+
+             +---+    +-*-*-*-+-*-*-+    +---+
+                              |
+                              |
+                              | Y
+                           +--v--+
+                           | Eve |
+                           +-----+
+```
+
+On the "e" and "d" block we have encryption and decryption functions,
+respectively. It could be intuitive to think that is a good idea to keep these
+function secret, and that was a common sense years ago.
+
+    In practice: Never use an untested (non-public) crypto algorithm!
 
 ## Substitution cipher
 
