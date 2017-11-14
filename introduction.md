@@ -67,11 +67,18 @@ are strongly based on cryptography.
                            +-----+
 ```
 
-On the "e" and "d" block we have encryption and decryption functions,
-respectively. It could be intuitive to think that is a good idea to keep these
-function secret, and that was a common sense years ago.
+This fluxogram above, shows Alice, sending a message "X" to Bob over an
+insecure channel. On the botton we can see Eve tht got the message "Y", which
+is the cyphertext for "X". On the "e" and "d" blocks we have encryption and
+decryption functions, respectively.
 
-    In practice: Never use an untested (non-public) crypto algorithm!
+### Public crypto algorithms x Secret crypto algorithms
+
+It could be intuitive to think that is a good idea to keep these functions
+secret, and that was a common sense years ago.
+
+    In practice: Never use an crypto algorithms that wasn't heavily tested or
+    in not public.
 
 ## Substitution cipher
 
