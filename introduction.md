@@ -78,7 +78,7 @@ It could be intuitive to think that is a good idea to keep these functions
 secret, and that was a common sense years ago.
 
     In practice: Never use an crypto algorithms that wasn't heavily tested or
-    in not public.
+    are not public.
 
 ## Substitution cipher
 
