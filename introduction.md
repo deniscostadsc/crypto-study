@@ -100,11 +100,11 @@ secret, and that was a common sense years ago.
     In practice: Never use an crypto algorithms that wasn't heavily tested or
     are not public.
 
-#### Kerckhoffs' principle
+#### Kerckhoffs' principle [\[1\]](#References)
 
     A crypto system should be secure even if the attacker (Eve) Knows all the
     details about the system, with the exception of the secret
-    key[\[1\]](#References).
+    key.
 
 ## Substitution cipher
 
@@ -125,12 +125,45 @@ C -> w
 
 e.g. e(ABBA) -> lddl
 
-Q: Is this cipher secure? How can we attack the cipher?
+### Attacks on Substitution cipher
 
-## Attacks
+Q: Is this substitution cipher secure? How can we attack the cipher?
 
-### Brute-force
+#### Brute-force attack or exhaustive key search
+
+The key space for Substitution Cipher is `N!` (factorial of n), N in this case
+means the number of letters. 26!, that is something between 2^88 ans 2^89. On
+the classes I'm taking it says is not possible with the current computation
+power break a 2^88 key, because the key space is too large. Maybe this
+information is outdated. I'll update this part when I have confirmation on
+this.
+
+#### Letter frequence analysis
+
+If an atacker intercepts a ciphertext encrypted with substitution cypher, we
+take a look on the frequence of the letters in the language we think the
+message is written in. This will give us good hint about the plaintext.
+
+### Classification of attacks
+
+As we could see here, there are often many possible attack approaches (attack
+vector)
+
+```
+cryptoanalysis
+|\
+v +->Analitical attacks
+Brute-force
+Social engineering
+Implementation attacks
+Side-channel attacks
+```
+
+As an attacker you can try all possible approaches to attack a crypto system.
+But as a defender you must to defend your system against all of them.
 
 ## References
 
 [1] - https://en.wikipedia.org/wiki/Kerckhoffs's_principle How can we attack the cipher?
+[2] - https://www.keylength.com/en/compare/
+[3] - https://en.wikipedia.org/wiki/Substitution_cipher#Security_for_simple_substitution_ciphers
