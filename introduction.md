@@ -158,6 +158,8 @@ Brute-force
 Social engineering
 Implementation attacks
 Side-channel attacks
+
+TODO: build this diagram!
 ```
 
 As an attacker you can try all possible approaches to attack a crypto system.
