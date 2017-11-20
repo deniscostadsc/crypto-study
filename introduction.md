@@ -100,7 +100,7 @@ secret, and that was a common sense years ago.
     In practice: Never use an crypto algorithms that wasn't heavily tested or
     are not public.
 
-#### Kerckhoffs' principle [\[1\]](#References)
+#### Kerckhoffs' principle [\[1\]](#references)
 
     A crypto system should be secure even if the attacker (Eve) Knows all the
     details about the system, with the exception of the secret
@@ -136,13 +136,14 @@ means the number of letters. 26!, that is something between 2^88 ans 2^89. On
 the classes I'm taking it says is not possible with the current computation
 power break a 2^88 key, because the key space is too large. Maybe this
 information is outdated. I'll update this part when I have confirmation on
-this.
+this.[\[2\]](#references)
 
 #### Letter frequence analysis
 
 If an atacker intercepts a ciphertext encrypted with substitution cypher, we
 take a look on the frequence of the letters in the language we think the
-message is written in. This will give us good hint about the plaintext.
+message is written in. This will give us good hint about the
+plaintext.[\[3\]](#references)
 
 ### Classification of attacks
 
@@ -164,6 +165,8 @@ But as a defender you must to defend your system against all of them.
 
 ## References
 
-[1] - https://en.wikipedia.org/wiki/Kerckhoffs's_principle How can we attack the cipher?
+[1] - https://en.wikipedia.org/wiki/Kerckhoffs's_principle
+
 [2] - https://www.keylength.com/en/compare/
+
 [3] - https://en.wikipedia.org/wiki/Substitution_cipher#Security_for_simple_substitution_ciphers
