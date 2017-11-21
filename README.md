@@ -13,3 +13,4 @@ So far the content here is:
 
 * [Introduction](./introduction.md)
 * [Modulo operation](https://github.com/deniscostadsc/crypto-study/blob/master/Modulo%20operation.ipynb)
+* [Stream ciphers](https://github.com/deniscostadsc/crypto-study/blob/master/Stream%20Ciphers.ipynb)
