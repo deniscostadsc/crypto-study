@@ -11,8 +11,8 @@ report.
 
 So far the content here is:
 
-* [Introduction](./introduction.md)
-* [Modulo operation](https://github.com/deniscostadsc/crypto-study/blob/master/Modulo%20operation.ipynb)
-* [Stream ciphers](https://github.com/deniscostadsc/crypto-study/blob/master/Stream%20ciphers.ipynb)
-* [Random numbers](https://github.com/deniscostadsc/crypto-study/blob/master/Random%20numbers.ipynb)
-* [One time pad](https://github.com/deniscostadsc/crypto-study/blob/master/One%20time%20pad.ipynb)
+1. [Introduction](./introduction.md)
+2. [Modulo operation](https://github.com/deniscostadsc/crypto-study/blob/master/Modulo%20operation.ipynb)
+3. [Stream ciphers](https://github.com/deniscostadsc/crypto-study/blob/master/Stream%20ciphers.ipynb)
+4. [Random numbers](https://github.com/deniscostadsc/crypto-study/blob/master/Random%20numbers.ipynb)
+5. [One time pad](https://github.com/deniscostadsc/crypto-study/blob/master/One%20time%20pad.ipynb)
