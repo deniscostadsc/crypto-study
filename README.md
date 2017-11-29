@@ -16,3 +16,4 @@ So far the content here is:
 3. [Stream ciphers](https://github.com/deniscostadsc/crypto-study/blob/master/Stream%20ciphers.ipynb)
 4. [Random numbers](https://github.com/deniscostadsc/crypto-study/blob/master/Random%20numbers.ipynb)
 5. [One time pad](https://github.com/deniscostadsc/crypto-study/blob/master/One%20time%20pad.ipynb)
+6. [Linear congruential generator](https://github.com/deniscostadsc/crypto-study/blob/master/Linear%20congruential%20generator.ipynb)
